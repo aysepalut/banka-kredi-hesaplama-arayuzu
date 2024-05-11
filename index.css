@@ -1,0 +1,234 @@
+body {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #ebebeb !important;
+}
+
+.col {
+    padding:0 !important;
+}
+
+span.baslik {
+    font-weight:600;
+    font-size:24px;
+    padding:10px;
+}
+
+.container {
+    margin-top:15px;
+}
+
+span.content-baslik {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #636363;
+}
+
+span.vade {
+   font-weight:600;
+   font-size:12px;
+   padding: 10px;
+}
+
+.card {
+    width:100%;
+    background-color: white;
+    margin-left:15px;
+    margin-top:10px;
+}
+
+.card img {
+    width:120px;
+    height:50%;
+
+    padding: 10px;
+}
+
+span.detay {
+    position: absolute;
+    right: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    
+}
+.detay:hover {
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    border-bottom:1px solid #636363;
+    cursor:pointer;
+}
+
+div hr {
+    margin-top:0px;
+    width:100%;
+}
+
+input[type="text"].anapara {
+    width:55%;
+    padding:10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #d7d7d7;
+    
+}
+
+.vade-anapara {
+    padding: 10px !important;
+}
+
+input[type="text"].anapara-para {
+    width:45%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #d7d7d7;
+    float:right;
+    font-weight:600;
+    padding:10px;
+    text-align:right;
+ 
+}
+
+
+.vade-anapara-aciklama {
+    background-color: #f5f5f5;
+    width:100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top:-15px;
+
+}
+
+label.label-left {
+    color: #969696;
+    font-weight: 600;
+    font-size:12px;
+    left:0;
+    padding:5px;
+    position: relative;
+}
+
+label.label-right {
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    right:5px;
+    padding:5px;
+
+    position: absolute;
+}
+
+input[type="submit"].devam-et {
+    width:100%;
+    border:none;
+    padding:10px;
+    background-color: #376ee2;
+    border-color: #215edf;
+    color:#fff;
+    font-weight:600;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+input[type="submit"].devam-et:hover {
+    transition: 0.1s;
+    background-color: #0a3ead;
+    cursor:pointer;
+}
+
+
+.col.sonuc {
+    width:100%;
+    padding:10px;
+    background-color: #fff;
+    margin-top:30px;
+    position: relative;
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+.col.sonuc img {
+    width:120px;
+    height:40%;
+    margin-bottom:15px;
+    margin-top:10px;
+    padding:10px;
+}
+
+span.hizli-kredi {
+    font-weight: 600;
+    padding:10px;
+}
+
+.sonuclar-icerik {
+    width:70%;
+    float:right;
+    margin-top:-85px;
+}
+
+.sonuc-icerik-1 {
+    width:33%;
+    float:right;
+}
+
+
+span.faiz-orani{
+    font-weight:600;
+    color:#969696;
+}
+
+
+span.faiz-orani-sonuc{
+    font-weight:600;
+    color:000;
+}
+
+.table-bg {
+    width:100%;
+    background-color: #fff;
+    margin-top:20px;
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    margin-left: 3px !important;
+    margin-bottom:20px;
+}
+
+.table thead th {
+    border:none;
+}
+
+.table-bordered td, .table-bordered th {
+    border:none !important;
+}
+
+table img {
+    width:120px;
+    height:100;
+}
+
+.img-fluid  {
+    width:150px;
+    height:150px !important;
+}
+
+.col-md-4 {
+    padding-left:0px !important;
+}
+
